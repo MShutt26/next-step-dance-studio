@@ -4,15 +4,26 @@
   "shows": [
     {
       "id": "show-1",
-      "label": "Show 1 — 10:00 AM",
+      "label": "Show 1 — 11:00 AM",
       "entries": [
         {
           "type": "performance",
           "number": 1,
-          "title": "Puttin' On the Ritz",
+          "title": "Ignite the Stage",
           "styleId": "tap",
-          "group": "Junior Tap",
-          "dancers": ["Ava Thompson", "Mia Rodriguez", "Claire Johnson", "Zoe Williams", "Nora Davis"],
+          "group": "Production",
+          "dancers": [
+            "Maddy Bender",
+            "Kaylee Boyer",
+            "Jenna Coakley",
+            "Maria Conte",
+            "Lucia Costanzo",
+            "Natalie Dempsey",
+            "Aisling Derrick",
+            "Emerson Derrick",
+            "MaKenzie Duerr, Bria Getty",
+            "Zoie Griffin Anya Groff, Kinley Guziak, Aubree Hankinson, Emma Hofmanner Hunter Keith, Emily Klopp, Viviana LaScala, Joanna Lieb Gabby Mattiuz, Kyra Mauger, Lilly Mayall, Maria Mayall Maira McCartin, Aisling McCoy, Izabella Modeste, Alexis Murray Aliviah Oister, Kyliah Ridgley, Millie Schieck, Jamie Shingleton Riley Simcox, Natalie Stewart, Jillian Sweetwood Leah Weitzenkorn, Caden Yohn"
+          ],
           "description": "A classic tap number brought to life with rhythm and style."
         },
         {
@@ -21,7 +32,14 @@
           "title": "Shake It Off",
           "styleId": "jazz",
           "group": "Petite Jazz",
-          "dancers": ["Lily Baker", "Sophie Chen", "Emma Park", "Chloe Martinez", "Gracie Lee", "Addison Scott"]
+          "dancers": [
+            "Lily Baker",
+            "Sophie Chen",
+            "Emma Park",
+            "Chloe Martinez",
+            "Gracie Lee",
+            "Addison Scott"
+          ]
         },
         {
           "type": "performance",
@@ -29,7 +47,13 @@
           "title": "Waltz of the Snowflakes",
           "styleId": "ballet",
           "group": "Ballet I",
-          "dancers": ["Isabella Moore", "Charlotte Harris", "Amelia White", "Harper Clark", "Evelyn Lewis"],
+          "dancers": [
+            "Isabella Moore",
+            "Charlotte Harris",
+            "Amelia White",
+            "Harper Clark",
+            "Evelyn Lewis"
+          ],
           "description": "A delicate ballet excerpt from The Nutcracker."
         },
         {
@@ -38,7 +62,13 @@
           "title": "Can't Stop the Feeling",
           "styleId": "hip-hop",
           "group": "Petite Hip Hop",
-          "dancers": ["Luna Adams", "Maya Nelson", "Riley Carter", "Paisley Mitchell", "Hazel Perez"]
+          "dancers": [
+            "Luna Adams",
+            "Maya Nelson",
+            "Riley Carter",
+            "Paisley Mitchell",
+            "Hazel Perez"
+          ]
         },
         {
           "type": "performance",
@@ -46,7 +76,13 @@
           "title": "A Million Dreams",
           "styleId": "lyrical",
           "group": "Junior Lyrical",
-          "dancers": ["Savannah Roberts", "Aubrey Turner", "Brooklyn Phillips", "Skylar Campbell", "Natalie Evans"],
+          "dancers": [
+            "Savannah Roberts",
+            "Aubrey Turner",
+            "Brooklyn Phillips",
+            "Skylar Campbell",
+            "Natalie Evans"
+          ],
           "description": "An emotional lyrical piece celebrating imagination and possibility."
         },
         {
@@ -55,7 +91,13 @@
           "title": "Circus",
           "styleId": "acrobatics",
           "group": "Acrobatics II",
-          "dancers": ["Penelope Parker", "Stella Collins", "Violet Morris", "Aurora Reed", "Layla Cox"]
+          "dancers": [
+            "Penelope Parker",
+            "Stella Collins",
+            "Violet Morris",
+            "Aurora Reed",
+            "Layla Cox"
+          ]
         },
         {
           "type": "performance",
@@ -63,7 +105,13 @@
           "title": "42nd Street",
           "styleId": "tap",
           "group": "Teen Tap",
-          "dancers": ["Emma Sutton", "Lily Parker", "Grace Chen", "Hannah Brooks", "Madison Foster"],
+          "dancers": [
+            "Emma Sutton",
+            "Lily Parker",
+            "Grace Chen",
+            "Hannah Brooks",
+            "Madison Foster"
+          ],
           "description": "A Broadway-inspired tap number full of energy and precision."
         },
         {
@@ -72,18 +120,35 @@
           "title": "Gravity",
           "styleId": "lyrical",
           "group": "Senior Lyrical",
-          "dancers": ["Sophia Martinez", "Avery Johnson", "Emma Thompson", "Lily Parker"],
+          "dancers": [
+            "Sophia Martinez",
+            "Avery Johnson",
+            "Emma Thompson",
+            "Lily Parker"
+          ],
           "description": "A powerful lyrical performance by our senior dancers."
         },
-        { "type": "intermission" },
-        { "type": "section", "label": "Second Half" },
+        {
+          "type": "intermission"
+        },
+        {
+          "type": "section",
+          "label": "Second Half"
+        },
         {
           "type": "performance",
           "number": 9,
           "title": "Uptown Funk",
           "styleId": "jazz",
           "group": "Teen Jazz",
-          "dancers": ["Chloe Rivera", "Zoe Bennett", "Leah Foster", "Sydney Price", "Paige Hughes", "Morgan Ward"]
+          "dancers": [
+            "Chloe Rivera",
+            "Zoe Bennett",
+            "Leah Foster",
+            "Sydney Price",
+            "Paige Hughes",
+            "Morgan Ward"
+          ]
         },
         {
           "type": "performance",
@@ -91,7 +156,13 @@
           "title": "Level Up",
           "styleId": "hip-hop",
           "group": "Junior Hip Hop",
-          "dancers": ["Jade Patterson", "Kylie Ross", "Brianna Sanders", "Destiny Griffin", "Alexis Diaz"],
+          "dancers": [
+            "Jade Patterson",
+            "Kylie Ross",
+            "Brianna Sanders",
+            "Destiny Griffin",
+            "Alexis Diaz"
+          ],
           "description": "A high-energy hip hop routine showcasing next-level moves."
         },
         {
@@ -100,7 +171,10 @@
           "title": "Swan Lake Pas de Deux",
           "styleId": "ballet",
           "group": "Advanced Ballet",
-          "dancers": ["Grace Chen", "Emma Thompson"],
+          "dancers": [
+            "Grace Chen",
+            "Emma Thompson"
+          ],
           "description": "An excerpt from the iconic Act II pas de deux."
         },
         {
@@ -109,7 +183,13 @@
           "title": "Rise Up",
           "styleId": "lyrical",
           "group": "Teen Lyrical",
-          "dancers": ["Madison Foster", "Olivia James", "Kayla Young", "Amber King", "Tessa Wright"]
+          "dancers": [
+            "Madison Foster",
+            "Olivia James",
+            "Kayla Young",
+            "Amber King",
+            "Tessa Wright"
+          ]
         },
         {
           "type": "performance",
@@ -117,7 +197,13 @@
           "title": "Lose Control",
           "styleId": "hip-hop",
           "group": "Teen Hip Hop",
-          "dancers": ["Avery Johnson", "Taylor Brooks", "Jordan Hayes", "Sierra Powell", "Destiny Griffin"],
+          "dancers": [
+            "Avery Johnson",
+            "Taylor Brooks",
+            "Jordan Hayes",
+            "Sierra Powell",
+            "Destiny Griffin"
+          ],
           "description": "An energetic hip hop showcase featuring our Teen Hip Hop class."
         },
         {
@@ -126,7 +212,13 @@
           "title": "Dancing Queen",
           "styleId": "jazz",
           "group": "Senior Jazz Company",
-          "dancers": ["Sophia Martinez", "Avery Johnson", "Emma Thompson", "Lily Parker", "Grace Chen"]
+          "dancers": [
+            "Sophia Martinez",
+            "Avery Johnson",
+            "Emma Thompson",
+            "Lily Parker",
+            "Grace Chen"
+          ]
         },
         {
           "type": "performance",
@@ -134,7 +226,14 @@
           "title": "Stomp the Yard",
           "styleId": "tap",
           "group": "Next Step Tap Company",
-          "dancers": ["Emma Sutton", "Lily Parker", "Grace Chen", "Madison Foster", "Hannah Brooks", "Emma Thompson"],
+          "dancers": [
+            "Emma Sutton",
+            "Lily Parker",
+            "Grace Chen",
+            "Madison Foster",
+            "Hannah Brooks",
+            "Emma Thompson"
+          ],
           "description": "The full tap company brings the house down to close the first act."
         },
         {
@@ -157,7 +256,13 @@
           "title": "Puttin' On the Ritz",
           "styleId": "tap",
           "group": "Junior Tap",
-          "dancers": ["Ava Thompson", "Mia Rodriguez", "Claire Johnson", "Zoe Williams", "Nora Davis"],
+          "dancers": [
+            "Ava Thompson",
+            "Mia Rodriguez",
+            "Claire Johnson",
+            "Zoe Williams",
+            "Nora Davis"
+          ],
           "description": "A classic tap number brought to life with rhythm and style."
         },
         {
@@ -166,7 +271,14 @@
           "title": "Shake It Off",
           "styleId": "jazz",
           "group": "Petite Jazz",
-          "dancers": ["Lily Baker", "Sophie Chen", "Emma Park", "Chloe Martinez", "Gracie Lee", "Addison Scott"]
+          "dancers": [
+            "Lily Baker",
+            "Sophie Chen",
+            "Emma Park",
+            "Chloe Martinez",
+            "Gracie Lee",
+            "Addison Scott"
+          ]
         },
         {
           "type": "performance",
@@ -174,7 +286,13 @@
           "title": "Waltz of the Snowflakes",
           "styleId": "ballet",
           "group": "Ballet I",
-          "dancers": ["Isabella Moore", "Charlotte Harris", "Amelia White", "Harper Clark", "Evelyn Lewis"],
+          "dancers": [
+            "Isabella Moore",
+            "Charlotte Harris",
+            "Amelia White",
+            "Harper Clark",
+            "Evelyn Lewis"
+          ],
           "description": "A delicate ballet excerpt from The Nutcracker."
         },
         {
@@ -183,7 +301,13 @@
           "title": "Can't Stop the Feeling",
           "styleId": "hip-hop",
           "group": "Petite Hip Hop",
-          "dancers": ["Luna Adams", "Maya Nelson", "Riley Carter", "Paisley Mitchell", "Hazel Perez"]
+          "dancers": [
+            "Luna Adams",
+            "Maya Nelson",
+            "Riley Carter",
+            "Paisley Mitchell",
+            "Hazel Perez"
+          ]
         },
         {
           "type": "performance",
@@ -191,7 +315,13 @@
           "title": "A Million Dreams",
           "styleId": "lyrical",
           "group": "Junior Lyrical",
-          "dancers": ["Savannah Roberts", "Aubrey Turner", "Brooklyn Phillips", "Skylar Campbell", "Natalie Evans"],
+          "dancers": [
+            "Savannah Roberts",
+            "Aubrey Turner",
+            "Brooklyn Phillips",
+            "Skylar Campbell",
+            "Natalie Evans"
+          ],
           "description": "An emotional lyrical piece celebrating imagination and possibility."
         },
         {
@@ -200,7 +330,14 @@
           "title": "Firework",
           "styleId": "acrobatics",
           "group": "Acrobatics I",
-          "dancers": ["Penelope Parker", "Stella Collins", "Aurora Reed", "Layla Cox", "Ivy Morgan", "Nadia Bell"]
+          "dancers": [
+            "Penelope Parker",
+            "Stella Collins",
+            "Aurora Reed",
+            "Layla Cox",
+            "Ivy Morgan",
+            "Nadia Bell"
+          ]
         },
         {
           "type": "performance",
@@ -208,7 +345,13 @@
           "title": "42nd Street",
           "styleId": "tap",
           "group": "Teen Tap",
-          "dancers": ["Emma Sutton", "Lily Parker", "Grace Chen", "Hannah Brooks", "Madison Foster"],
+          "dancers": [
+            "Emma Sutton",
+            "Lily Parker",
+            "Grace Chen",
+            "Hannah Brooks",
+            "Madison Foster"
+          ],
           "description": "A Broadway-inspired tap number full of energy and precision."
         },
         {
@@ -217,18 +360,35 @@
           "title": "Gravity",
           "styleId": "lyrical",
           "group": "Senior Lyrical",
-          "dancers": ["Sophia Martinez", "Avery Johnson", "Emma Thompson", "Lily Parker"],
+          "dancers": [
+            "Sophia Martinez",
+            "Avery Johnson",
+            "Emma Thompson",
+            "Lily Parker"
+          ],
           "description": "A powerful lyrical performance by our senior dancers."
         },
-        { "type": "intermission" },
-        { "type": "section", "label": "Second Half" },
+        {
+          "type": "intermission"
+        },
+        {
+          "type": "section",
+          "label": "Second Half"
+        },
         {
           "type": "performance",
           "number": 9,
           "title": "Uptown Funk",
           "styleId": "jazz",
           "group": "Teen Jazz",
-          "dancers": ["Chloe Rivera", "Zoe Bennett", "Leah Foster", "Sydney Price", "Paige Hughes", "Morgan Ward"]
+          "dancers": [
+            "Chloe Rivera",
+            "Zoe Bennett",
+            "Leah Foster",
+            "Sydney Price",
+            "Paige Hughes",
+            "Morgan Ward"
+          ]
         },
         {
           "type": "performance",
@@ -236,7 +396,13 @@
           "title": "Level Up",
           "styleId": "hip-hop",
           "group": "Junior Hip Hop",
-          "dancers": ["Jade Patterson", "Kylie Ross", "Brianna Sanders", "Destiny Griffin", "Alexis Diaz"],
+          "dancers": [
+            "Jade Patterson",
+            "Kylie Ross",
+            "Brianna Sanders",
+            "Destiny Griffin",
+            "Alexis Diaz"
+          ],
           "description": "A high-energy hip hop routine showcasing next-level moves."
         },
         {
@@ -245,7 +411,11 @@
           "title": "Sleeping Beauty Variation",
           "styleId": "ballet",
           "group": "Advanced Ballet",
-          "dancers": ["Grace Chen", "Emma Thompson", "Sophia Martinez"],
+          "dancers": [
+            "Grace Chen",
+            "Emma Thompson",
+            "Sophia Martinez"
+          ],
           "description": "An excerpt from the Sleeping Beauty grand pas de deux."
         },
         {
@@ -254,7 +424,13 @@
           "title": "Rise Up",
           "styleId": "lyrical",
           "group": "Teen Lyrical",
-          "dancers": ["Madison Foster", "Olivia James", "Kayla Young", "Amber King", "Tessa Wright"]
+          "dancers": [
+            "Madison Foster",
+            "Olivia James",
+            "Kayla Young",
+            "Amber King",
+            "Tessa Wright"
+          ]
         },
         {
           "type": "performance",
@@ -262,7 +438,13 @@
           "title": "Lose Control",
           "styleId": "hip-hop",
           "group": "Teen Hip Hop",
-          "dancers": ["Avery Johnson", "Taylor Brooks", "Jordan Hayes", "Sierra Powell", "Destiny Griffin"],
+          "dancers": [
+            "Avery Johnson",
+            "Taylor Brooks",
+            "Jordan Hayes",
+            "Sierra Powell",
+            "Destiny Griffin"
+          ],
           "description": "An energetic hip hop showcase featuring our Teen Hip Hop class."
         },
         {
@@ -271,7 +453,13 @@
           "title": "Dancing Queen",
           "styleId": "jazz",
           "group": "Senior Jazz Company",
-          "dancers": ["Sophia Martinez", "Avery Johnson", "Emma Thompson", "Lily Parker", "Grace Chen"]
+          "dancers": [
+            "Sophia Martinez",
+            "Avery Johnson",
+            "Emma Thompson",
+            "Lily Parker",
+            "Grace Chen"
+          ]
         },
         {
           "type": "performance",
@@ -279,152 +467,14 @@
           "title": "Stomp the Yard",
           "styleId": "tap",
           "group": "Next Step Tap Company",
-          "dancers": ["Emma Sutton", "Lily Parker", "Grace Chen", "Madison Foster", "Hannah Brooks", "Emma Thompson"],
-          "description": "The full tap company brings the house down to close the first act."
-        },
-        {
-          "type": "performance",
-          "number": 16,
-          "title": "Next Step",
-          "styleId": "jazz",
-          "group": "Full Company",
-          "description": "All dancers take the stage together for our closing number — a celebration of everything we have built this season."
-        }
-      ]
-    },
-    {
-      "id": "show-3",
-      "label": "Show 3 — 6:00 PM",
-      "entries": [
-        {
-          "type": "performance",
-          "number": 1,
-          "title": "Puttin' On the Ritz",
-          "styleId": "tap",
-          "group": "Junior Tap",
-          "dancers": ["Ava Thompson", "Mia Rodriguez", "Claire Johnson", "Zoe Williams", "Nora Davis"],
-          "description": "A classic tap number brought to life with rhythm and style."
-        },
-        {
-          "type": "performance",
-          "number": 2,
-          "title": "Shake It Off",
-          "styleId": "jazz",
-          "group": "Petite Jazz",
-          "dancers": ["Lily Baker", "Sophie Chen", "Emma Park", "Chloe Martinez", "Gracie Lee", "Addison Scott"]
-        },
-        {
-          "type": "performance",
-          "number": 3,
-          "title": "Waltz of the Snowflakes",
-          "styleId": "ballet",
-          "group": "Ballet I",
-          "dancers": ["Isabella Moore", "Charlotte Harris", "Amelia White", "Harper Clark", "Evelyn Lewis"],
-          "description": "A delicate ballet excerpt from The Nutcracker."
-        },
-        {
-          "type": "performance",
-          "number": 4,
-          "title": "Can't Stop the Feeling",
-          "styleId": "hip-hop",
-          "group": "Petite Hip Hop",
-          "dancers": ["Luna Adams", "Maya Nelson", "Riley Carter", "Paisley Mitchell", "Hazel Perez"]
-        },
-        {
-          "type": "performance",
-          "number": 5,
-          "title": "A Million Dreams",
-          "styleId": "lyrical",
-          "group": "Junior Lyrical",
-          "dancers": ["Savannah Roberts", "Aubrey Turner", "Brooklyn Phillips", "Skylar Campbell", "Natalie Evans"],
-          "description": "An emotional lyrical piece celebrating imagination and possibility."
-        },
-        {
-          "type": "performance",
-          "number": 6,
-          "title": "Circus",
-          "styleId": "acrobatics",
-          "group": "Acrobatics II",
-          "dancers": ["Penelope Parker", "Stella Collins", "Violet Morris", "Aurora Reed", "Layla Cox"]
-        },
-        {
-          "type": "performance",
-          "number": 7,
-          "title": "42nd Street",
-          "styleId": "tap",
-          "group": "Teen Tap",
-          "dancers": ["Emma Sutton", "Lily Parker", "Grace Chen", "Hannah Brooks", "Madison Foster"],
-          "description": "A Broadway-inspired tap number full of energy and precision."
-        },
-        {
-          "type": "performance",
-          "number": 8,
-          "title": "Gravity",
-          "styleId": "lyrical",
-          "group": "Senior Lyrical",
-          "dancers": ["Sophia Martinez", "Avery Johnson", "Emma Thompson", "Lily Parker"],
-          "description": "A powerful lyrical performance by our senior dancers."
-        },
-        { "type": "intermission" },
-        { "type": "section", "label": "Second Half" },
-        {
-          "type": "performance",
-          "number": 9,
-          "title": "Uptown Funk",
-          "styleId": "jazz",
-          "group": "Teen Jazz",
-          "dancers": ["Chloe Rivera", "Zoe Bennett", "Leah Foster", "Sydney Price", "Paige Hughes", "Morgan Ward"]
-        },
-        {
-          "type": "performance",
-          "number": 10,
-          "title": "Level Up",
-          "styleId": "hip-hop",
-          "group": "Junior Hip Hop",
-          "dancers": ["Jade Patterson", "Kylie Ross", "Brianna Sanders", "Destiny Griffin", "Alexis Diaz"],
-          "description": "A high-energy hip hop routine showcasing next-level moves."
-        },
-        {
-          "type": "performance",
-          "number": 11,
-          "title": "Swan Lake Pas de Deux",
-          "styleId": "ballet",
-          "group": "Advanced Ballet",
-          "dancers": ["Grace Chen", "Emma Thompson"],
-          "description": "An excerpt from the iconic Act II pas de deux."
-        },
-        {
-          "type": "performance",
-          "number": 12,
-          "title": "Rise Up",
-          "styleId": "lyrical",
-          "group": "Teen Lyrical",
-          "dancers": ["Madison Foster", "Olivia James", "Kayla Young", "Amber King", "Tessa Wright"]
-        },
-        {
-          "type": "performance",
-          "number": 13,
-          "title": "Lose Control",
-          "styleId": "hip-hop",
-          "group": "Teen Hip Hop",
-          "dancers": ["Avery Johnson", "Taylor Brooks", "Jordan Hayes", "Sierra Powell", "Destiny Griffin"],
-          "description": "An energetic hip hop showcase featuring our Teen Hip Hop class."
-        },
-        {
-          "type": "performance",
-          "number": 14,
-          "title": "Dancing Queen",
-          "styleId": "jazz",
-          "group": "Senior Jazz Company",
-          "dancers": ["Sophia Martinez", "Avery Johnson", "Emma Thompson", "Lily Parker", "Grace Chen"]
-        },
-        {
-          "type": "performance",
-          "number": 15,
-          "title": "Stomp the Yard",
-          "styleId": "tap",
-          "group": "Next Step Tap Company",
-          "dancers": ["Emma Sutton", "Lily Parker", "Grace Chen", "Madison Foster", "Hannah Brooks", "Emma Thompson"],
+          "dancers": [
+            "Emma Sutton",
+            "Lily Parker",
+            "Grace Chen",
+            "Madison Foster",
+            "Hannah Brooks",
+            "Emma Thompson"
+          ],
           "description": "The full tap company brings the house down to close the first act."
         },
         {
