@@ -10,5 +10,26 @@
     "salesOpenDateTime": "2026-05-15T11:00:00",
     "ticketLink": "https://www.etix.com/ticket/p/97765917/ignite-the-stage"
   },
-  "seniors": []
+  "seniors": [
+    {
+      "name": "Hunter Keith",
+      "classOf": 2025,
+      "yearsAtStudio": 13,
+      "styles": [],
+      "bio": "Twin Valley High School"
+    },
+    {
+      "name": "Maira McCartin",
+      "classOf": 2026,
+      "yearsAtStudio": 7,
+      "quote": "",
+      "bio": "Exeter High School"
+    },
+    {
+      "name": "Caden Yohn",
+      "classOf": 2026,
+      "yearsAtStudio": 8,
+      "bio": "Boyertown High School"
+    }
+  ]
 }
