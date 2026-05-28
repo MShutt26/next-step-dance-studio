@@ -2,16 +2,14 @@
   "instructors": [
     {
       "name": "Melissa Shutt",
-      "title": "Owner & Artistic Director",
+      "title": "Owner/Director",
       "photo": null,
       "specialties": [
         "Hip Hop",
         "Jazz",
         "Lyrical",
-        "Tap",
         "Ballet",
         "Acro",
-        "Creative Movement",
         "Adult Classes",
         "Private Lessons"
       ],
@@ -20,41 +18,49 @@
     {
       "name": "Lacey Vaccaro",
       "title": "Dance Instructor",
-      "photo": "/images/staff/lacey-vaccaro.webp",
+      "photo": "",
       "specialties": [
         "Tap",
-        "Ballet"
+        "Ballet",
+        "Acro",
+        "Private Lessons"
       ],
       "bio": "Miss Lacey teaches our Tap and Ballet classes. She has 30+ years of experience in dancing and teaching. She has studied Tap, Jazz, Ballet, Pointe, Musical Theater and Partnering. Lacey has done outstanding choreography for Genesius Theater and was the Assistant Choreographer of 42nd Street for a local performing arts company. Lacey is an award winning teacher and choreographer. Lacey was given the prestigious award of \"Truly Talented Tap\" two years in a row at a National level. Lacey continues to study dance by taking classes and attending conventions. Lacey is an extremely talented tap dancer, to say the least, and that is shown through her students."
     },
     {
       "name": "Shennan Lorenzo",
       "title": "Dance Instructor",
-      "photo": "/images/staff/shennan-lorenzo.webp",
+      "photo": "",
       "specialties": [
         "Creative Movement",
         "Combo",
-        "Beginner Levels"
+        "Acro",
+        "Private Lessons"
       ],
       "bio": "Shennan Lorenzo is our Creative Movement, Combo, and beginner levels dance instructor. With an infectious energy and a passion for nurturing young talent, Shennan has become a beloved figure among budding dancers embarking on their first steps into the world of movement. As an expert in teaching younger students, Shennan understands the importance of creating a supportive and inclusive environment where everyone feels empowered to unleash their inner dancer. Her classes are about building confidence, fostering teamwork, and instilling a lifelong love of dance.\n\nShennan's journey from a student of The Next Step to teacher has equipped her with a unique perspective and empathy for the struggles and triumphs of those following in her footsteps. Her classes are not just about imparting knowledge but also about fostering a sense of community and mentorship, where every student feels seen, heard, and valued. We are grateful for Shennan's commitment to nurturing the potential of every student who walks through her studio doors."
-    },
-    {
-      "name": "Erin Shertzer",
-      "title": "Dance Instructor",
-      "photo": "/images/staff/erin-shertzer.webp",
-      "specialties": [
-        "Creative Movement",
-        "Combo",
-        "Tap"
-      ],
-      "bio": "Miss Erin teaches Creative Movement, Combo and Tap. She started as a student at the Next Step when it's doors opened in 2005. Through out the years Miss Erin has studied Tap, Ballet, Jazz, Lyrical and Hip hop. As a dancer, Miss Erin has competed and won many times at dance competitions throughout Pennsylvania. Among her many awards, she was given the \"fantastic feet\" for her solo tap performance in which she also received the highest scoring solo award. Miss Erin has furthered her training by attending both the Monsters of Hip Hop and JUMP dance conventions. She is a graduate of Millersville University where she earned her degree in Elementary and Special Education. While at Millersville, Miss Erin was a dance team member and competed at NDA nationals in Daytona Florida. She is currently a 2nd grade teacher for the Twin Valley School District. We are excited to welcome Miss Erin back to The Next Step and proud to have her as part of our teaching staff."
     },
     {
       "name": "Alexa Harvey",
       "title": "Dance Instructor",
       "photo": null,
-      "specialties": [],
+      "specialties": [
+        "Jazz",
+        "Hip Hop",
+        "Lyrical",
+        "Private Lessons"
+      ],
       "bio": "We are proud to welcome Alexa back to The Next Step Dance Studio as an alum! With a strong passion for both dance and fitness, Alexa brings a well-rounded background and positive energy to every class she teaches.\n\nHer experience includes serving as Assistant Choreographer for Reading High School’s musical productions, as well as coaching cheerleading at Exeter Junior High School. She also created and led her own dance program at the Mystic YMCA in Connecticut, where she taught Hip Hop, Ballet, and Lyrical.\n\nIn addition to her dance experience, Alexa is a NASM Certified Personal Trainer and Nutrition Coach. Her dedication to fitness led her to place 2nd in a bodybuilding competition, and she loves incorporating strength, technique, and confidence-building into her classes.\nAlexa is excited to share her passion and knowledge with the next generation of dancers at The Next\n \nStep Dance Studio!"
+    },
+    {
+      "name": "Erin Cola",
+      "title": "Dance Instructor",
+      "photo": "",
+      "specialties": [
+        "Tap",
+        "Jazz",
+        "Private Lessons"
+      ],
+      "bio": "Miss Erin teaches Creative Movement, Combo and Tap. She started as a student at the Next Step when it's doors opened in 2005. Through out the years Miss Erin has studied Tap, Ballet, Jazz, Lyrical and Hip hop. As a dancer, Miss Erin has competed and won many times at dance competitions throughout Pennsylvania. Among her many awards, she was given the \"fantastic feet\" for her solo tap performance in which she also received the highest scoring solo award. Miss Erin has furthered her training by attending both the Monsters of Hip Hop and JUMP dance conventions. She is a graduate of Millersville University where she earned her degree in Elementary and Special Education. While at Millersville, Miss Erin was a dance team member and competed at NDA nationals in Daytona Florida. She is currently a 2nd grade teacher for the Twin Valley School District. We are excited to welcome Miss Erin back to The Next Step and proud to have her as part of our teaching staff."
     }
   ]
 }
