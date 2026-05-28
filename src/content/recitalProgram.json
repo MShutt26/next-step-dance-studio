@@ -1,5 +1,5 @@
 {
-  "title": "Spring Recital 2026",
+  "title": "IGNITE THE STAGE Recital 2026",
   "season": "2025–2026",
   "shows": [
     {
@@ -10,7 +10,7 @@
           "type": "performance",
           "number": 1,
           "title": "Ignite the Stage",
-          "styleId": "tap",
+          "styleId": "jazz",
           "group": "Production",
           "dancers": [
             "Maddy Bender",
@@ -24,109 +24,250 @@
             "MaKenzie Duerr, Bria Getty",
             "Zoie Griffin Anya Groff, Kinley Guziak, Aubree Hankinson, Emma Hofmanner Hunter Keith, Emily Klopp, Viviana LaScala, Joanna Lieb Gabby Mattiuz, Kyra Mauger, Lilly Mayall, Maria Mayall Maira McCartin, Aisling McCoy, Izabella Modeste, Alexis Murray Aliviah Oister, Kyliah Ridgley, Millie Schieck, Jamie Shingleton Riley Simcox, Natalie Stewart, Jillian Sweetwood Leah Weitzenkorn, Caden Yohn"
           ],
-          "description": "A classic tap number brought to life with rhythm and style."
+          "description": ""
         },
         {
           "type": "performance",
           "number": 2,
-          "title": "Shake It Off",
-          "styleId": "jazz",
-          "group": "Petite Jazz",
+          "title": "Pretty Little Baby",
+          "styleId": "creative-movement",
+          "group": "Creative Movement (Thursday 4:15)",
           "dancers": [
-            "Lily Baker",
-            "Sophie Chen",
-            "Emma Park",
-            "Chloe Martinez",
-            "Gracie Lee",
-            "Addison Scott"
+            "Dahlia Falcone, Harper Fillman, Naavya Jadeja Reagan Kulp, Izel Mendoza, Sofia Riat Aaliyah Rodriguez, Mazelee Sterner"
           ]
         },
         {
           "type": "performance",
           "number": 3,
-          "title": "Waltz of the Snowflakes",
-          "styleId": "ballet",
-          "group": "Ballet I",
+          "title": "Things Are Swinging",
+          "styleId": "jazz",
+          "group": "",
           "dancers": [
-            "Isabella Moore",
-            "Charlotte Harris",
-            "Amelia White",
-            "Harper Clark",
-            "Evelyn Lewis"
+            "Kallie Kabbeko"
           ],
-          "description": "A delicate ballet excerpt from The Nutcracker."
+          "description": ""
         },
         {
           "type": "performance",
           "number": 4,
-          "title": "Can't Stop the Feeling",
-          "styleId": "hip-hop",
-          "group": "Petite Hip Hop",
+          "title": "Oogum Boogum Song",
+          "styleId": "combo",
+          "group": "Combo (Wednesday 5:45)",
           "dancers": [
-            "Luna Adams",
-            "Maya Nelson",
-            "Riley Carter",
-            "Paisley Mitchell",
-            "Hazel Perez"
+            "Gracie Harper, Blair Hower, Ashlynn Kehres Chandler Kingsbury, Camila Ritter, Scarlett Rossi Raegan Ruotolo, Kennedy Stewart, Mia Zedka"
           ]
         },
         {
           "type": "performance",
           "number": 5,
-          "title": "A Million Dreams",
-          "styleId": "lyrical",
-          "group": "Junior Lyrical",
+          "title": "Lollipop",
+          "styleId": "creative-movement",
+          "group": "Creative Movement (Monday 5:00)",
           "dancers": [
-            "Savannah Roberts",
-            "Aubrey Turner",
-            "Brooklyn Phillips",
-            "Skylar Campbell",
-            "Natalie Evans"
+            "Madilyn Cremi, Elena Fister, Isobel Gross Audry Miller, Dale Rozette Daphne Spence, Olivia Walters"
           ],
-          "description": "An emotional lyrical piece celebrating imagination and possibility."
+          "description": ""
         },
         {
           "type": "performance",
           "number": 6,
-          "title": "Circus",
-          "styleId": "acrobatics",
-          "group": "Acrobatics II",
+          "title": "The Rose",
+          "styleId": "ballet",
+          "group": "",
           "dancers": [
-            "Penelope Parker",
-            "Stella Collins",
-            "Violet Morris",
-            "Aurora Reed",
-            "Layla Cox"
+            "Natalie Koren"
           ]
         },
         {
           "type": "performance",
           "number": 7,
-          "title": "42nd Street",
+          "title": "Golden Hour",
           "styleId": "tap",
-          "group": "Teen Tap",
+          "group": "",
           "dancers": [
-            "Emma Sutton",
-            "Lily Parker",
-            "Grace Chen",
-            "Hannah Brooks",
-            "Madison Foster"
+            "Millie Schieck"
           ],
-          "description": "A Broadway-inspired tap number full of energy and precision."
+          "description": ""
         },
         {
           "type": "performance",
           "number": 8,
-          "title": "Gravity",
-          "styleId": "lyrical",
-          "group": "Senior Lyrical",
+          "title": "Hit List",
+          "styleId": "hip-hop",
+          "group": "Company Hip-Hop (Thursday 5:00) ",
           "dancers": [
-            "Sophia Martinez",
-            "Avery Johnson",
-            "Emma Thompson",
-            "Lily Parker"
+            "Maddy Bender, Aisling Derrick, Emerson Derrick Zoie Griffin, Aubree Hankinson, Hunter Keith Viviana LaScala, Joanna Lieb, Kyra Mauger Jamie Shingleton, Riley Simcox, Natalie Stewartz Jillian Sweetwood"
           ],
-          "description": "A powerful lyrical performance by our senior dancers."
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 9,
+          "title": "Soul Sister",
+          "styleId": "tap",
+          "group": "Teen Jazz",
+          "dancers": [
+            "Leah Weitzenkorn & Bria Getty"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 10,
+          "title": "Fever",
+          "styleId": "jazz",
+          "group": "",
+          "dancers": [
+            "Lucia Costanzo"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 11,
+          "title": "Cat In The Hat",
+          "styleId": "combo",
+          "group": "Combo B (Thursday 5:45)",
+          "dancers": [
+            "Hailey Gross, Holly Heiser, Evangeline Homan Robert Homan, Dorothy Kirkwood, Gianna Marshall Evelyn Nolan"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 12,
+          "title": "Mr. Pinstripe Suit",
+          "styleId": "tap",
+          "group": "Teen Lyrical",
+          "dancers": [
+            "Maira McCartin & Alexis Murray"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 13,
+          "title": "K-Pop Soda Pop",
+          "styleId": "hip-hop",
+          "group": "Mini-Hip-Hop (Tuesday 6:30)",
+          "dancers": [
+            "Noelle Boone, Isabelle DeFino, Miranda Eshelman Natalie Heiser, Talia Hill, Ashlynn Kehres Ellie Keil, Chandler Kingsbury, Ellianna Regits Nadiana Sterner, Isabella Tubbs, Madalyn Weidner"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 14,
+          "title": "Tutti Frutti",
+          "styleId": "tap",
+          "group": "",
+          "dancers": [
+            "Anya Groff"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 15,
+          "title": "When Will My Life Begin",
+          "styleId": "acrobatics",
+          "group": "Acro A (Monday 5:45)",
+          "dancers": [
+            "Rosalyn Comstock, Addison Duffy, Brenna Juryea Makayla Lomnychuk, Peyton Phillips Aaliyah Rodriguez, Kennedy Rozette, Vayda Von Alst"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 16,
+          "title": "Gypsy",
+          "styleId": "tap",
+          "group": "",
+          "description": "",
+          "dancers": [
+            "Lucia Costanzo, Kinley Guziak, & Izabella Modeste"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 17,
+          "title": "Sympathy",
+          "styleId": "tap",
+          "dancers": [
+            "Jillian Sweetwood"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 18,
+          "title": "Tell Him",
+          "styleId": "jazz",
+          "group": "Jr. Company Jazz (Tuesday 5:00)",
+          "dancers": [
+            "Leila Frederick, Bria Getty, Kallie Kabbeko Natalie Koren, Lilly Mayall Maria Mayall, Aisling McCoy, Carlee Mountz Millie Schieck, Leah Weitzenkorn"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 19,
+          "title": "Read All About It",
+          "styleId": "lyrical",
+          "dancers": [
+            "Aubree Hankinson"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 20,
+          "title": "Black Car",
+          "styleId": "jazz",
+          "dancers": [
+            "Zoie Griffin & Riley Simcox"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 21,
+          "title": "Wings",
+          "styleId": "hip-hop",
+          "group": "Beginner Hip-Hop (Tuesday 5:45)",
+          "dancers": [
+            "Quinn Bennett, Addison Dickman, Jada Gambone Ava Gonzalez, Brooklyn Graham, Julieanna Kehres Lila Kennedy, June Kirkwood, Eleanor Millard Lennon Miller, Sadie Miller, MaKenzie Webb Penelope Weller, Adelia Whitney, Lexi Zychal"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 22,
+          "title": "L.O.V.E",
+          "group": "Jr.Combo (Tuesday 7:00)",
+          "styleId": "jazz",
+          "dancers": [
+            "Noelle Boone, Isabelle DeFino, Miranda Eshelman Natalie Heiser, Natalie Herling, Talia Hill Ellie Keil, Ellianna Regits, Isabella Tubbs, Jocelyn Wood"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 23,
+          "title": "All I Do Is Win",
+          "styleId": "hip-hop",
+          "dancers": [
+            "Caden Yohn"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 24,
+          "title": "Sing",
+          "styleId": "tap",
+          "dancers": [
+            "Lilly Mayall"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 25,
+          "title": "Hey Jude",
+          "styleId": "ballet",
+          "dancers": [
+            "Lucia Costanzo, Natalie Dempsey, Bria Getty Kherington Giampietro, Natalie Koren, Izabella Modeste, Alexis Murray, Jocelyn Murray Millie Schieck, Leah Weitzenkorn Maddy Bender, Aisling Derrick, Emerson Derrick, Zoie Griffin Aubree Hankinson, Hunter Keith, Viviana LaScala Joanna Lieb, Gabby Mattiuz, Kyra Mauger, Maira McCartin Harper Rickards, Jamie Shingleton, Riley Simcox Natalie Stewartz, Jillian Sweetwood"
+          ]
         },
         {
           "type": "intermission"
@@ -137,236 +278,416 @@
         },
         {
           "type": "performance",
-          "number": 9,
-          "title": "Uptown Funk",
-          "styleId": "jazz",
-          "group": "Teen Jazz",
+          "title": "Heroes ",
+          "number": 25,
+          "styleId": "acrobatics",
+          "group": "Acro B (Wednesday 5:00)",
           "dancers": [
-            "Chloe Rivera",
-            "Zoe Bennett",
-            "Leah Foster",
-            "Sydney Price",
-            "Paige Hughes",
-            "Morgan Ward"
+            "Ellie Keil, Saniyah Nieves, McKenna Ralph,  Scarlett Rossi, Amelia Stawarz,  Hampton Stephens, Isabella Tubbs, Jocelyn Wood"
           ]
         },
         {
           "type": "performance",
-          "number": 10,
-          "title": "Level Up",
-          "styleId": "hip-hop",
-          "group": "Junior Hip Hop",
-          "dancers": [
-            "Jade Patterson",
-            "Kylie Ross",
-            "Brianna Sanders",
-            "Destiny Griffin",
-            "Alexis Diaz"
-          ],
-          "description": "A high-energy hip hop routine showcasing next-level moves."
-        },
-        {
-          "type": "performance",
-          "number": 11,
-          "title": "Swan Lake Pas de Deux",
-          "styleId": "ballet",
-          "group": "Advanced Ballet",
-          "dancers": [
-            "Grace Chen",
-            "Emma Thompson"
-          ],
-          "description": "An excerpt from the iconic Act II pas de deux."
-        },
-        {
-          "type": "performance",
-          "number": 12,
-          "title": "Rise Up",
+          "number": 27,
+          "title": "God Bless The USA",
           "styleId": "lyrical",
-          "group": "Teen Lyrical",
           "dancers": [
-            "Madison Foster",
-            "Olivia James",
-            "Kayla Young",
-            "Amber King",
-            "Tessa Wright"
+            "Maddy Bender, Jenna Coakley, Leila Frederick Bria Getty, Zoie Griffin, Aubree Hankinson Natalie Koren, Viviana LaScala, Harper Rickards Millie Schieck, Jamie Shingleton Riley Simcox, Leah Weitzenkorn"
           ]
         },
         {
           "type": "performance",
-          "number": 13,
-          "title": "Lose Control",
-          "styleId": "hip-hop",
-          "group": "Teen Hip Hop",
-          "dancers": [
-            "Avery Johnson",
-            "Taylor Brooks",
-            "Jordan Hayes",
-            "Sierra Powell",
-            "Destiny Griffin"
-          ],
-          "description": "An energetic hip hop showcase featuring our Teen Hip Hop class."
-        },
-        {
-          "type": "performance",
-          "number": 14,
-          "title": "Dancing Queen",
+          "number": 28,
+          "title": "On Broadway",
           "styleId": "jazz",
-          "group": "Senior Jazz Company",
           "dancers": [
-            "Sophia Martinez",
-            "Avery Johnson",
-            "Emma Thompson",
-            "Lily Parker",
-            "Grace Chen"
+            "Joanna Lieb"
           ]
         },
         {
           "type": "performance",
-          "number": 15,
-          "title": "Stomp the Yard",
+          "number": 29,
+          "title": "Gold Dust Woman",
           "styleId": "tap",
-          "group": "Next Step Tap Company",
           "dancers": [
-            "Emma Sutton",
-            "Lily Parker",
-            "Grace Chen",
-            "Madison Foster",
-            "Hannah Brooks",
-            "Emma Thompson"
-          ],
-          "description": "The full tap company brings the house down to close the first act."
+            "Kyra Mauger"
+          ]
         },
         {
           "type": "performance",
-          "number": 16,
-          "title": "Next Step",
+          "number": 30,
+          "title": "Once Upon a December",
+          "styleId": "combo",
+          "description": "",
+          "dancers": [
+            "Rosalyn Comstock, Gianna Faline, Brenna Juryea Makayla Lomnychuk, Thea McHugh Peyton Phillips, Kennedy Rozette, Bailey Schneider Lauren Shepard, Blair Thornton"
+          ],
+          "group": "Combo (Monday 6:30)"
+        },
+        {
+          "type": "performance",
+          "number": 31,
+          "title": "Miss Otis Regrets ",
           "styleId": "jazz",
-          "group": "Full Company",
-          "description": "All dancers take the stage together for our closing number — a celebration of everything we have built this season."
+          "dancers": [
+            "Aisling Derrick & Natalie Stewartz"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 32,
+          "title": "Shout And Feel It ",
+          "styleId": "tap",
+          "dancers": [
+            "Aubree Hankinson"
+          ]
+        },
+        {
+          "type": "performance",
+          "title": "Proud Mary",
+          "number": 33,
+          "styleId": "tap",
+          "dancers": [
+            "Maria Conte, Natalie Dempsey, Bria Getty Lilly Mayall, Maria Mayall, Aisling McCoy Harper Rickards, Kyliah Ridgley, Leah Weitzenkorn"
+          ],
+          "group": "Jr. Company Tap (Tues 6:30)"
+        },
+        {
+          "type": "performance",
+          "number": 34,
+          "title": "Wow",
+          "styleId": "hip-hop",
+          "dancers": [
+            "Hunter Keith"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 35,
+          "title": "Devil with a Blue Dress On",
+          "styleId": "jazz",
+          "dancers": [
+            "Emerson Derrick"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 36,
+          "title": "A Whole New World",
+          "styleId": "ballet",
+          "group": "Beginner Ballet (Tuesday 5:00)",
+          "dancers": [
+            "Quinn Bennett, Ava Gonzalez, Cora Groff Julieanna Kehres, Lila Kennedy, Amayraa Mehrotra Eleanor Millard, Lennon Miller, Sadie Miller Adeline Nolan , Isabella Tubbs, Lexi Zychal"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 37,
+          "title": "Singin' In the Rain",
+          "dancers": [
+            "Aisling Derrick, Aubree Hankinson, Joanna Lieb Gabby Mattiuz, Kyra Mauger, Maira McCartin, Alexis Murray Millie Schieck, Natalie Stewartz, Jillian Sweetwood"
+          ],
+          "styleId": "tap"
+        },
+        {
+          "type": "performance",
+          "number": 38,
+          "title": "Gimme That",
+          "styleId": "hip-hop",
+          "dancers": [
+            "Riley Simcox"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 39,
+          "title": "Where I Wanna Be",
+          "styleId": "jazz",
+          "dancers": [
+            "Maddy Bender"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 40,
+          "title": "Dear Dad",
+          "styleId": "lyrical",
+          "dancers": [
+            "Zoie Griffin"
+          ]
+        },
+        {
+          "type": "performance",
+          "title": "Party People",
+          "number": 41,
+          "styleId": "hip-hop",
+          "group": "Teen Hip-Hop (Wednesday 7:30)",
+          "dancers": [
+            "Kaylee Boyer, Jenna Coakley, Lucia Costanzo,  Natalie Dempsey, MaKenzie Duerr, Bria Getty, Emily Klopp, Lilly Mayall, Maria Mayall, Aliviah Oister Kyliah Ridgley, Millie Schieck, Leah Weitzenkorn, Caden Yohn"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 42,
+          "title": "Don't Stop",
+          "styleId": "tap",
+          "dancers": [
+            "Maria Conte"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 43,
+          "title": "Twistin' the Night Away",
+          "styleId": "tap",
+          "dancers": [
+            "Emma Hofmanner"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 44,
+          "title": "Beyond The Sea",
+          "styleId": "combo",
+          "group": "Jr.Combo (Thursday 6:30)",
+          "dancers": [
+            "Carsyn Bechtel, Mackenzie Bence, Camila Centeno Gianna Faline, Adrianna Gelormini, Lydia Guy Ella Lupo, Adeline Nolan, McKenna Ralph Margot Reitz-Cincoli, Amelia Stawarz, Madalyn Weidner"
+          ]
+        },
+        {
+          "type": "performance",
+          "title": "Spice It Up",
+          "number": 45,
+          "styleId": "jazz",
+          "dancers": [
+            "Maddy Bender, Lucia Costanzo, Natalie Dempsey Aisling Derrick, Emerson Derrick, Zoie Griffin Aubree Hankinson, Hunter Keith, Viviana LaScala Joanna Lieb, Kyra Mauger, Alexis Murray Riley Simcox, Natalie Stewartz, Jillian Sweetwood"
+          ],
+          "group": "Company Jazz (Monday 7:15)"
         }
       ]
     },
     {
       "id": "show-2",
-      "label": "Show 2 — 2:00 PM",
+      "label": "Show 2 — 3:00 PM",
       "entries": [
         {
           "type": "performance",
           "number": 1,
-          "title": "Puttin' On the Ritz",
-          "styleId": "tap",
-          "group": "Junior Tap",
+          "title": "Ignite the Stage",
+          "styleId": "jazz",
+          "group": "",
           "dancers": [
-            "Ava Thompson",
-            "Mia Rodriguez",
-            "Claire Johnson",
-            "Zoe Williams",
-            "Nora Davis"
+            "Maddy Bender, Kaylee Boyer, Jenna Coakley, Maria Conte Lucia Costanzo, Natalie Dempsey, Aisling Derrick Emerson Derrick, MaKenzie Duerr, Bria Getty, Zoie Griffin Anya Groff, Kinley Guziak, Aubree Hankinson, Emma Hofmanner Hunter Keith, Emily Klopp, Viviana LaScala, Joanna Lieb Gabby Mattiuz, Kyra Mauger, Lilly Mayall, Maria Mayall Maira McCartin, Aisling McCoy, Izabella Modeste, Alexis Murray Aliviah Oister, Kyliah Ridgley, Millie Schieck, Jamie Shingleton Riley Simcox, Natalie Stewart, Jillian Sweetwood Leah Weitzenkorn, Caden Yohn"
           ],
-          "description": "A classic tap number brought to life with rhythm and style."
+          "description": ""
         },
         {
           "type": "performance",
           "number": 2,
-          "title": "Shake It Off",
-          "styleId": "jazz",
-          "group": "Petite Jazz",
+          "title": "It's a Beautiful Morning",
+          "styleId": "creative-movement",
+          "group": "Creative Movement (Tuesday 5:45)",
           "dancers": [
-            "Lily Baker",
-            "Sophie Chen",
-            "Emma Park",
-            "Chloe Martinez",
-            "Gracie Lee",
-            "Addison Scott"
+            "Marlow Brewer, Parker Cola, Lucia Gomes Rayne Jones, Maia McCall, Aurora Seres Isabella Smith, Cassidy White, Isabella Yelenoc"
           ]
         },
         {
           "type": "performance",
           "number": 3,
-          "title": "Waltz of the Snowflakes",
-          "styleId": "ballet",
-          "group": "Ballet I",
+          "title": "Shades",
+          "styleId": "hip-hop",
+          "group": "",
           "dancers": [
-            "Isabella Moore",
-            "Charlotte Harris",
-            "Amelia White",
-            "Harper Clark",
-            "Evelyn Lewis"
+            "Ava Gonzalez & Adelia Whitney"
           ],
           "description": "A delicate ballet excerpt from The Nutcracker."
         },
         {
           "type": "performance",
           "number": 4,
-          "title": "Can't Stop the Feeling",
-          "styleId": "hip-hop",
-          "group": "Petite Hip Hop",
+          "title": "Don't Stop Me Now",
+          "styleId": "tap",
+          "group": "Tap 2A (Monday 5:00)",
           "dancers": [
-            "Luna Adams",
-            "Maya Nelson",
-            "Riley Carter",
-            "Paisley Mitchell",
-            "Hazel Perez"
+            "Wendy Daley, Madison Hernandez, Natalie Koren Mayeva Menard, Chloe Montowski"
           ]
         },
         {
           "type": "performance",
           "number": 5,
-          "title": "A Million Dreams",
-          "styleId": "lyrical",
-          "group": "Junior Lyrical",
+          "title": "Everybody",
+          "styleId": "hip-hop",
+          "group": "Hip-Hop 1 (Monday 5:00)",
           "dancers": [
-            "Savannah Roberts",
-            "Aubrey Turner",
-            "Brooklyn Phillips",
-            "Skylar Campbell",
-            "Natalie Evans"
+            "Noel Burns, Harper Care, Levi Dawson-Berkey Lauren Gebhardt, Jayden Mattiuz Addison Seeberger, Taylor Thierolf"
           ],
           "description": "An emotional lyrical piece celebrating imagination and possibility."
         },
         {
           "type": "performance",
           "number": 6,
-          "title": "Firework",
-          "styleId": "acrobatics",
-          "group": "Acrobatics I",
+          "title": "Good Vibrations",
+          "styleId": "jazz",
+          "group": "Acrobatics ",
           "dancers": [
-            "Penelope Parker",
-            "Stella Collins",
-            "Aurora Reed",
-            "Layla Cox",
-            "Ivy Morgan",
-            "Nadia Bell"
+            "Millie Schieck"
           ]
         },
         {
           "type": "performance",
           "number": 7,
-          "title": "42nd Street",
+          "title": "Soda Pop",
           "styleId": "tap",
-          "group": "Teen Tap",
+          "group": "Tap 2B (Monday 7:15)",
           "dancers": [
-            "Emma Sutton",
-            "Lily Parker",
-            "Grace Chen",
-            "Hannah Brooks",
-            "Madison Foster"
+            "Kaylee Boyer, Leila Frederick, Anya Groff Emma Hofmanner, Kallie Kabbeko Emily Latshaw, Julia Leiss, Molly Leiss"
           ],
-          "description": "A Broadway-inspired tap number full of energy and precision."
+          "description": ""
         },
         {
           "type": "performance",
           "number": 8,
-          "title": "Gravity",
-          "styleId": "lyrical",
-          "group": "Senior Lyrical",
+          "title": "Hit List",
+          "styleId": "hip-hop",
+          "group": "Company Hip-Hop (Thursday 5:00) ",
           "dancers": [
-            "Sophia Martinez",
-            "Avery Johnson",
-            "Emma Thompson",
-            "Lily Parker"
+            "Maddy Bender, Aisling Derrick, Emerson Derrick Zoie Griffin, Aubree Hankinson, Hunter Keith Viviana LaScala, Joanna Lieb, Kyra Mauger Jamie Shingleton, Riley Simcox, Natalie Stewartz Jillian Sweetwood"
           ],
-          "description": "A powerful lyrical performance by our senior dancers."
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 9,
+          "title": "Landslide",
+          "styleId": "lyrical",
+          "group": "",
+          "dancers": [
+            "Bria Getty"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 10,
+          "title": "You Can’t Stop The Beat",
+          "styleId": "jazz",
+          "group": "Beginner Jazz (Wednesday 5:45)",
+          "dancers": [
+            "Anna Fast, Sadie Fast, Brooke Fritz, Lauren Gebhardt Cora Groff, Ezrah Kemp, Saniyah Nieves Sarah Stinson, Taylor Thierolf, Rosalie Vega Avery Wagner, Zoe Zedka"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 11,
+          "title": "The Longest Time",
+          "styleId": "tap",
+          "group": "",
+          "dancers": [
+            "Maira McCartin"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 12,
+          "title": "Emergency",
+          "styleId": "jazz",
+          "group": "Teen Jazz (Wednesday 6:30)",
+          "dancers": [
+            "Kaylee Boyer, Maria Conte, MaKenzie Duerr Ava Faline, Kinley Guziak, Emily Klopp Izabella Modeste, Jocelyn Murray, Kyliah Ridgley Jamie Shingleton"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 13,
+          "title": "Rome",
+          "styleId": "lyrical",
+          "group": "",
+          "dancers": [
+            "Zoie Griffin"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 14,
+          "title": "Tell Him",
+          "styleId": "jazz",
+          "group": "Jr. Company Jazz (Tuesday 5:00)",
+          "dancers": [
+            "Leila Frederick, Bria Getty,  Kallie Kabbeko, Natalie Koren, Lilly Mayall Maria Mayall, Aisling McCoy, Carlee Mountz Millie Schieck, Leah Weitzenkorn"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 15,
+          "title": "Stuck In The Middle With You",
+          "styleId": "tap",
+          "group": "",
+          "dancers": [
+            "Jillian Sweetwood & Kyra Mauger"
+          ],
+          "description": ""
+        },
+        {
+          "type": "performance",
+          "number": 16,
+          "title": "She Used To Be Mine ",
+          "styleId": "lyrical",
+          "group": "",
+          "description": "",
+          "dancers": [
+            "Maddy Bender"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 17,
+          "title": "A Thousand Years",
+          "styleId": "ballet",
+          "group": "Ballet 1 (Monday 5:45)",
+          "dancers": [
+            "Karleigh Burns, Noel Burns, Riley Byrnes Lauren Gebhardt, Lily Grubb, Saniyah Nieves Finley Oliver, Taylor Thierolf"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 18,
+          "title": "It's Party Time",
+          "styleId": "jazz",
+          "group": "Jazz 2 (Monday 5:45)",
+          "dancers": [
+            "Lillian Allen, Jenna Coakley, Wendy Daley, Adelina Faline Anya Groff, Emma Hofmanner, Sadie Hoshauer Aria Keller, Mayeva Menard Chloe Montowski, Lily Sink"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 19,
+          "title": "What I Like About You",
+          "styleId": "tap",
+          "dancers": [
+            "Aisling McCoy"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 20,
+          "title": "Happily Ever After",
+          "styleId": "combo",
+          "dancers": [
+            "Alice Essig, Hannah Evans, Mira Fava, Emerson Hartline Violet Jaquez, Eleanor Reppert, Lacey Roshong Faye Soper, Evelyn Stork"
+          ],
+          "group": "Combo A (Thursday 5:00)"
+        },
+        {
+          "type": "performance",
+          "number": 21,
+          "title": "Hey Jude",
+          "styleId": "ballet",
+          "group": "Teen Ballet (Thursday 5:00 & 6:00)",
+          "dancers": [
+            "Lucia Costanzo, Natalie Dempsey, Bria Getty Kherington Giampietro, Natalie Koren,  Izabella Modeste, Alexis Murray, Jocelyn Murray Millie Schieck, Leah Weitzenkorn Maddy Bender, Aisling Derrick, Emerson Derrick, Zoie Griffin Aubree Hankinson, Hunter Keith, Viviana LaScala Joanna Lieb, Gabby Mattiuz, Kyra Mauger, Maira McCartin Harper Rickards, Jamie Shingleton, Riley Simcox Natalie Stewartz, Jillian Sweetwood"
+          ]
         },
         {
           "type": "intermission"
@@ -377,113 +698,213 @@
         },
         {
           "type": "performance",
-          "number": 9,
-          "title": "Uptown Funk",
-          "styleId": "jazz",
-          "group": "Teen Jazz",
+          "title": "Surf Crazy ",
+          "number": 22,
+          "styleId": "acrobatics",
+          "group": "Acro C (Wednesday 5:45)",
           "dancers": [
-            "Chloe Rivera",
-            "Zoe Bennett",
-            "Leah Foster",
-            "Sydney Price",
-            "Paige Hughes",
-            "Morgan Ward"
+            "Arya Beaver, Vivian Cogan Emma Hofmanner, Addison Kane Mira Mast, Peyton Mohn, Zoey Pelletier"
           ]
         },
         {
           "type": "performance",
-          "number": 10,
-          "title": "Level Up",
-          "styleId": "hip-hop",
-          "group": "Junior Hip Hop",
-          "dancers": [
-            "Jade Patterson",
-            "Kylie Ross",
-            "Brianna Sanders",
-            "Destiny Griffin",
-            "Alexis Diaz"
-          ],
-          "description": "A high-energy hip hop routine showcasing next-level moves."
-        },
-        {
-          "type": "performance",
-          "number": 11,
-          "title": "Sleeping Beauty Variation",
-          "styleId": "ballet",
-          "group": "Advanced Ballet",
-          "dancers": [
-            "Grace Chen",
-            "Emma Thompson",
-            "Sophia Martinez"
-          ],
-          "description": "An excerpt from the Sleeping Beauty grand pas de deux."
-        },
-        {
-          "type": "performance",
-          "number": 12,
-          "title": "Rise Up",
+          "number": 23,
+          "title": "God Bless The USA",
           "styleId": "lyrical",
-          "group": "Teen Lyrical",
+          "group": "Lyrical (Monday 6:30)",
           "dancers": [
-            "Madison Foster",
-            "Olivia James",
-            "Kayla Young",
-            "Amber King",
-            "Tessa Wright"
+            "Maddy Bender, Jenna Coakley, Leila Frederick Bria Getty, Zoie Griffin, Aubree Hankinson Natalie Koren, Viviana LaScala, Harper Rickards Millie Schieck, Jamie Shingleton Riley Simcox, Leah Weitzenkorn"
           ]
         },
         {
           "type": "performance",
-          "number": 13,
-          "title": "Lose Control",
-          "styleId": "hip-hop",
-          "group": "Teen Hip Hop",
-          "dancers": [
-            "Avery Johnson",
-            "Taylor Brooks",
-            "Jordan Hayes",
-            "Sierra Powell",
-            "Destiny Griffin"
-          ],
-          "description": "An energetic hip hop showcase featuring our Teen Hip Hop class."
-        },
-        {
-          "type": "performance",
-          "number": 14,
-          "title": "Dancing Queen",
-          "styleId": "jazz",
-          "group": "Senior Jazz Company",
-          "dancers": [
-            "Sophia Martinez",
-            "Avery Johnson",
-            "Emma Thompson",
-            "Lily Parker",
-            "Grace Chen"
-          ]
-        },
-        {
-          "type": "performance",
-          "number": 15,
-          "title": "Stomp the Yard",
+          "number": 24,
+          "title": "Power Haus",
           "styleId": "tap",
-          "group": "Next Step Tap Company",
           "dancers": [
-            "Emma Sutton",
-            "Lily Parker",
-            "Grace Chen",
-            "Madison Foster",
-            "Hannah Brooks",
-            "Emma Thompson"
-          ],
-          "description": "The full tap company brings the house down to close the first act."
+            "Gabby Mattiuz"
+          ]
         },
         {
           "type": "performance",
-          "number": 16,
-          "title": "Next Step",
+          "number": 25,
+          "title": "Show Yourself",
+          "styleId": "combo",
+          "group": "Combo (Tuesday 5:00)",
+          "dancers": [
+            "Gianna Ciabattoni, Callie Flood, Josephine Floren Maria Gomes, Olivia Jones, Olivia Kaiser Aliette Lahoz, Lillian Michalski, Sofia Miller, Eleanor White"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 26,
+          "title": "Pennies From Heaven",
+          "styleId": "tap",
+          "group": "Tap 1 (Tuesday 5:45)",
+          "dancers": [
+            "Lillian Allen, Noel Burns, Riley Byrnes Cruz Centeno, Willow Fritz,  Lily Grubb, Taylor Thierolf, Avery Wagner"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 27,
+          "title": "Shake That",
+          "styleId": "hip-hop",
+          "dancers": [
+            "Hunter Keith & Emerson Derrick"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 28,
+          "title": "Conga",
           "styleId": "jazz",
-          "group": "Full Company",
-          "description": "All dancers take the stage together for our closing number — a celebration of everything we have built this season."
+          "dancers": [
+            "Millie Schieck"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 29,
+          "title": "Friendship Song",
+          "styleId": "tap",
+          "group": "Beginner Tap (Wednesday 5:00)",
+          "dancers": [
+            "Lauren Gebhardt, Ava Gonzalez, Cora Groff Aubree Imes, Malai Hodge, Eleanor Millard Anoushka Singh, Jaya Singh, Rosalie Vega"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 30,
+          "title": "C'Est Magnifique",
+          "styleId": "jazz",
+          "dancers": [
+            "Aubree Hankinson"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 31,
+          "title": "Pon De Replay",
+          "styleId": "hip-hop",
+          "group": "Hip-Hop 2 (Wednesday 5:00)",
+          "dancers": [
+            "Lillian Allen, Cecilia Bender, Cruz Centeno, Vivian Cogan Kennedi Hill, Emma Hofmanner, Sadie Hoshauer Aria Keller, Mayeva Menard, Sarah Stinson"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 32,
+          "title": "Where’s My Husband",
+          "styleId": "hip-hop",
+          "dancers": [
+            "Maddy Bender"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 33,
+          "title": "Hook",
+          "styleId": "tap",
+          "dancers": [
+            "Alexis Murray"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 34,
+          "title": "Love Story",
+          "styleId": "ballet",
+          "group": "Ballet 3 (Wednesday 6:30)",
+          "dancers": [
+            "Jenna Coakley, Leila Frederick, Emily Latshaw Lilly Mayall, Maria Mayall, Aisling McCoy Chloe Montowski, Carlee Mountz, Lily Sink"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 35,
+          "title": "September",
+          "styleId": "jazz",
+          "group": "Jazz 1 (Tuesday 6:30)",
+          "dancers": [
+            "Karleigh Burns, Noel Burns, June Godfrey Lily Grubb, Madison Hernandez"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 36,
+          "title": "Ain't No Sunshine",
+          "styleId": "jazz",
+          "dancers": [
+            "Hunter Keith"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 37,
+          "title": "An Evening I Will Not Forget",
+          "styleId": "lyrical",
+          "dancers": [
+            "Zoie Griffin & Riley Simcox"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 38,
+          "title": "Singin' In The Rain",
+          "styleId": "tap",
+          "group": "Company Tap (Thursday 7:00)",
+          "dancers": [
+            "Aisling Derrick, Aubree Hankinson, Joanna Lieb Gabby Mattiuz, Kyra Mauger, Maira McCartin, Alexis Murray Millie Schieck, Natalie Stewartz, Jillian Sweetwood"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 39,
+          "title": "What's My Name",
+          "styleId": "hip-hop",
+          "group": "Beginner Hip-Hop (Wednesday 6:30)",
+          "dancers": [
+            "Riley Byrnes, Camille Chand, Isabella Cruz, Arianna Esposito Sophia Ierusalimtsev, Ezrah Kemp, Aria Livingood Istella Livingood, Peyton Mohn, Dandelion Mortzfield Saniyah Nieves, Finley Oliver, Bella Porretto, Fallon Shalter"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 40,
+          "title": "Crazy Little Thing Called Love",
+          "styleId": "jazz",
+          "dancers": [
+            "Natalie Koren"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 41,
+          "title": "Somewhere Over The Rainbow",
+          "styleId": "ballet",
+          "group": "Ballet 2 (Monday 6:30)",
+          "dancers": [
+            "Lillian Allen, Cruz Centeno, Maria Conte Wendy Daley, Adelina Faline, Ava Faline, Anya Groff Madison Hernandez, Emma Hofmanner Sadie Hoshauer, Violet Janda, Kallie Kabbeko Aria Keller, Julia Leiss, Molly Leiss Mayeva Menard, Adelia Whitney"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 42,
+          "title": "Rescue",
+          "styleId": "lyrical",
+          "dancers": [
+            "Leah Weitzenkorn"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 43,
+          "title": "Spice It Up",
+          "styleId": "jazz",
+          "group": "Company Jazz (Monday 7:15)",
+          "dancers": [
+            "Maddy Bender, Lucia Costanzo, Natalie Dempsey Aisling Derrick, Emerson Derrick, Zoie Griffin Aubree Hankinson, Hunter Keith, Viviana LaScala Joanna Lieb, Kyra Mauger, Alexis Murray Riley Simcox, Natalie Stewartz, Jillian Sweetwood"
+          ]
         }
       ]
     }
