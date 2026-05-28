@@ -24,13 +24,15 @@
       "classOf": 2026,
       "yearsAtStudio": 7,
       "quote": "",
-      "bio": "Exeter High School"
+      "bio": "Exeter High School",
+      "photo": "/images/uploads/maira.jpeg"
     },
     {
       "name": "Caden Yohn",
       "classOf": 2026,
       "yearsAtStudio": 8,
-      "bio": "Boyertown High School"
+      "bio": "Boyertown High School",
+      "photo": "/images/uploads/bts_nationals_fixed.jpeg"
     }
   ]
 }
