@@ -410,6 +410,16 @@
         {
           "type": "performance",
           "number": 40,
+          "title": "Chillin' Like a Villain",
+          "styleId": "hip-hop",
+          "group": "Mini Hip Hop (Monday 7:15)",
+          "dancers": [
+            "Emily Blauser, Camila Centeno, Haley Jones,  Addison Kane, Adalyn Kauffman, Addysen Sacks, Bailey Schneider, Lauren Shepard, Deliah Cruz, Elysia Wasson,  Christine Godon, Gabriella Delong"
+          ]
+        },
+        {
+          "type": "performance",
+          "number": 41,
           "title": "Dear Dad",
           "styleId": "lyrical",
           "dancers": [
@@ -419,7 +429,7 @@
         {
           "type": "performance",
           "title": "Party People",
-          "number": 41,
+          "number": 42,
           "styleId": "hip-hop",
           "group": "Teen Hip-Hop (Wednesday 7:30)",
           "dancers": [
@@ -428,7 +438,7 @@
         },
         {
           "type": "performance",
-          "number": 42,
+          "number": 43,
           "title": "Don't Stop",
           "styleId": "tap",
           "dancers": [
@@ -437,7 +447,7 @@
         },
         {
           "type": "performance",
-          "number": 43,
+          "number": 44,
           "title": "Twistin' the Night Away",
           "styleId": "tap",
           "dancers": [
@@ -446,7 +456,7 @@
         },
         {
           "type": "performance",
-          "number": 44,
+          "number": 45,
           "title": "Beyond The Sea",
           "styleId": "combo",
           "group": "Jr.Combo (Thursday 6:30)",
@@ -457,7 +467,7 @@
         {
           "type": "performance",
           "title": "Spice It Up",
-          "number": 45,
+          "number": 46,
           "styleId": "jazz",
           "dancers": [
             "Maddy Bender, Lucia Costanzo, Natalie Dempsey Aisling Derrick, Emerson Derrick, Zoie Griffin Aubree Hankinson, Hunter Keith, Viviana LaScala Joanna Lieb, Kyra Mauger, Alexis Murray Riley Simcox, Natalie Stewartz, Jillian Sweetwood"
