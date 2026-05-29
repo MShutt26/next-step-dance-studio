@@ -8,7 +8,7 @@
       "ages": "Ages 3–4",
       "title": "Creative Movement",
       "id": "creative-movement",
-      "image": "https://nebula.wsimg.com/a1393eca7721170dd144b399128551e1?AccessKeyId=B77414135F6586AF8FC2&disposition=0&alloworigin=1",
+      "image": "/images/uploads/dsc_2116.jpg",
       "description": "A special class for a special age. Dance activities emphasize the fun and excitement of discovering the world through movement. Children will enjoy learning the basic skills of ballet, tap, jazz, and tumbling with the use of music and props to develop basic motor and locomotor skills."
     },
     {
@@ -19,7 +19,7 @@
       "ages": "Ages 5–6",
       "title": "Combo Class",
       "id": "combo",
-      "image": null,
+      "image": "/images/uploads/dsc_2350.jpg",
       "description": "Basic dance skills and vocabulary are introduced at an age-appropriate level with an emphasis on self-expression and creativity. This class combining ballet, tap, jazz, and tumbling will help prepare students for future participation in any type of structured dance class."
     },
     {
@@ -30,7 +30,7 @@
       "ages": "All Ages & Levels",
       "title": "Tap",
       "id": "tap",
-      "image": "https://nebula.wsimg.com/d3cddc424f310dc233740115a3b5a60f?AccessKeyId=B77414135F6586AF8FC2&disposition=0&alloworigin=1",
+      "image": "/images/uploads/dsc_0915.jpg",
       "description": "Our tap program offers skill development from beginner through advanced levels. Classes emphasize the development and strengthening of technique and terminology, while highlighting the importance of rhythm and sound."
     },
     {
@@ -41,7 +41,7 @@
       "ages": "All Ages & Levels",
       "title": "Jazz",
       "id": "jazz",
-      "image": "https://nebula.wsimg.com/59bb6bc9e6c761e32bf3dce386ed394d?AccessKeyId=B77414135F6586AF8FC2&disposition=0&alloworigin=1",
+      "image": "/images/uploads/dsc_1756.jpg",
       "description": "Classes teach basic jazz dance technique, terminology, and movement quality with an emphasis on proper execution of jazz isolations, rhythms, and style performed to contemporary music. Jazz dance promotes flexibility, timing, and musical awareness. We recommend jazz be taken in conjunction with ballet."
     },
     {
@@ -52,7 +52,7 @@
       "ages": "All Ages & Levels",
       "title": "Ballet",
       "id": "ballet",
-      "image": "https://nebula.wsimg.com/46b5df54a3964821600367f607fe0be5?AccessKeyId=B77414135F6586AF8FC2&disposition=0&alloworigin=1",
+      "image": "/images/uploads/dsc_1050.jpg",
       "description": "Emphasizes the development of classical ballet skills with a focus on proper placement and alignment. Students will learn ballet vocabulary through barre and center work while building strength and flexibility. Ballet is the foundation of all structured forms of dance."
     },
     {
@@ -63,7 +63,7 @@
       "ages": "All Ages & Levels",
       "title": "Hip Hop",
       "id": "hip-hop",
-      "image": "https://nebula.wsimg.com/025e9f6e19f84ce9e7e7ea2fecddc84a?AccessKeyId=B77414135F6586AF8FC2&disposition=0&alloworigin=1",
+      "image": "/images/uploads/dsc_1508.jpg",
       "description": "A high-energy class that uses the latest sounds in rap, R&B, and pop music together with today's hottest movements presented in an age-appropriate manner. This fun class gives students the opportunity to develop their own sense of style."
     },
     {
@@ -74,7 +74,7 @@
       "ages": "All Ages & Levels",
       "title": "Lyrical",
       "id": "lyrical",
-      "image": null,
+      "image": "/images/uploads/dsc_2100.jpg",
       "description": "This class focuses on teaching dancers about creative expression. Lyrical dance is the fusion of ballet and jazz technique bound by the dancer's inner emotion, interpreting music and words to show the audience the emotion of a piece."
     },
     {
@@ -85,7 +85,7 @@
       "ages": "Ages 5–11 (grouped)",
       "title": "Acrobatics",
       "id": "acrobatics",
-      "image": "https://nebula.wsimg.com/66af31581edc26aad9501e2c33bfe6f0?AccessKeyId=B77414135F6586AF8FC2&disposition=0&alloworigin=1",
+      "image": "/images/uploads/dsc_1146.jpg",
       "description": "Centered on fundamental acrobatic technique to increase flexibility, strength, balance, coordination, endurance, timing, body awareness, self-discipline, and confidence. Moves range from forward rolls and cartwheels at level 1 through aerials and back handsprings at advanced levels."
     }
   ]
