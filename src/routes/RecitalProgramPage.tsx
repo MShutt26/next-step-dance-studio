@@ -190,7 +190,7 @@ export default function RecitalProgramPage(): ReactElement {
                       if (entry.type === 'intermission') {
                         return <IntermissionRow key={`intermission-${i}`} />
                       }
-                      return <PerformanceRow key={entry.number} entry={entry} />
+                      return <PerformanceRow key={`${entry.number}-${entry.title}`} entry={entry} />
                     })}
                   </div>
                 )}
