@@ -38,7 +38,7 @@ export default function RecitalProgramPage(): ReactElement {
     const q = search.trim().toLowerCase()
 
     return activeShow.entries.filter((entry) => {
-      if (entry.type === 'intermission' || entry.type === 'section') return true
+      if (entry.type === 'intermission' || entry.type === 'section') return false
 
       const styleMatch = activeStyle === 'all' || entry.styleId === activeStyle
       if (!styleMatch) return false
@@ -47,7 +47,7 @@ export default function RecitalProgramPage(): ReactElement {
 
       return (
         entry.title.toLowerCase().includes(q) ||
-        entry.group.toLowerCase().includes(q) ||
+        (entry.group?.toLowerCase().includes(q) ?? false) ||
         (entry.dancers?.some((d) => d.toLowerCase().includes(q)) ?? false)
       )
     })
@@ -271,7 +271,7 @@ function PerformanceRow({ entry }: { entry: PerformanceEntry }): ReactElement {
             </span>
           )}
         </div>
-        <p className="text-sm text-gray-500 mt-0.5">{entry.group}</p>
+        {entry.group && <p className="text-sm text-gray-500 mt-0.5">{entry.group}</p>}
         {entry.dancers && entry.dancers.length > 0 && (
           <p className="text-sm text-gray-400 mt-1">{entry.dancers.join(', ')}</p>
         )}

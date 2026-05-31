@@ -7,7 +7,7 @@ export type PerformanceEntry = {
   /** Must match a class `id` from src/data/classes.ts */
   styleId: string
   /** The performing class or group, e.g. "Junior Jazz", "Teen Tap Company" */
-  group: string
+  group?: string
   /** Dancer names shown below the group name */
   dancers?: string[]
   /** Optional short description displayed beneath the dancer names */
