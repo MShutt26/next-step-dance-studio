@@ -27,6 +27,7 @@ The `src/data/recital.ts` and `src/data/recitalProgram.ts` files are thin TypeSc
 - **`null` means "coming soon"** in the UI for that field — use `null` until details are finalized.
 - When filling **`seniors`**, include at minimum `name` and `bio`; `photo` is optional.
 - Keep **`season`** string updated for the current academic/recital year label.
+- **`visible: false`** hides the Recital pages site-wide (nav, footer, and both routes 404). Use it between seasons instead of deleting content — everything else in the file is preserved.
 
 ## After edits
 

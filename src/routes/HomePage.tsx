@@ -2,7 +2,7 @@ import type { ReactElement } from "react";
 import { Link } from "react-router";
 import { Helmet } from "react-helmet-async";
 import { classes } from "@/data/classes";
-import { summerSession } from "@/data/summerSession";
+import announcement, { isExternalLink } from "@/data/announcement";
 import { homepage } from "@/data/homepage";
 import { DancerPlaceholder } from "@components/DancerPlaceholder";
 
@@ -103,22 +103,35 @@ function HomePage(): ReactElement {
         </div>
       </section>
 
-      {/* Summer session announcement banner */}
-      {summerSession.enabled && (
+      {/* Announcement banner — content and on/off toggle live in the CMS */}
+      {announcement.enabled && (
         <section className="bg-studio-pink px-6 py-4">
           <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
             <div>
-              <span className="font-semibold text-white">{summerSession.headline}</span>
-              <span className="ml-2 text-sm text-pink-100">
-                {summerSession.sessionStart} – {summerSession.sessionEnd}
-              </span>
+              <span className="font-semibold text-white">{announcement.headline}</span>
+              {announcement.subtext && (
+                <span className="ml-2 text-sm text-pink-100">{announcement.subtext}</span>
+              )}
             </div>
-            <Link
-              to="/registration"
-              className="text-studio-pink flex-shrink-0 rounded-full bg-white px-5 py-2 text-sm font-semibold whitespace-nowrap transition-colors hover:bg-pink-50"
-            >
-              Register Now →
-            </Link>
+            {announcement.buttonLabel &&
+              announcement.buttonLink &&
+              (isExternalLink(announcement.buttonLink) ? (
+                <a
+                  href={announcement.buttonLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-studio-pink flex-shrink-0 rounded-full bg-white px-5 py-2 text-sm font-semibold whitespace-nowrap transition-colors hover:bg-pink-50"
+                >
+                  {announcement.buttonLabel} →
+                </a>
+              ) : (
+                <Link
+                  to={announcement.buttonLink}
+                  className="text-studio-pink flex-shrink-0 rounded-full bg-white px-5 py-2 text-sm font-semibold whitespace-nowrap transition-colors hover:bg-pink-50"
+                >
+                  {announcement.buttonLabel} →
+                </Link>
+              ))}
           </div>
         </section>
       )}

@@ -12,6 +12,20 @@ Most content changes don't require touching any page code. Content is managed th
 
 **Using Cursor:** copy-paste prompts for common tasks are in [`.cursor/prompts.md`](.cursor/prompts.md). Project **Agent Skills** in [`.cursor/skills/`](.cursor/skills/) steer the assistant toward the right files and conventions.
 
+### Announcement Banner — `src/content/announcement.json`
+
+The pink banner across the top of the home page. Use it for seasonal notices — registration opening, start dates, closures.
+
+| Field | Description |
+|---|---|
+| `enabled` | `true` shows the banner, `false` hides it entirely |
+| `headline` | The main message, e.g. `"Our 2026–2027 season is open for registration!"` |
+| `subtext` | Smaller text beside the headline, e.g. `"Classes begin September 8th"` — blank to omit |
+| `buttonLabel` | e.g. `"Register Now"` — blank shows no button |
+| `buttonLink` | `/registration`, `/classes`, etc. for this site, or a full `https://` address (opens in a new tab) — blank shows no button |
+
+---
+
 ### Classes — `src/content/classes.json`
 
 Each class is an object in the `classes` array. Fields:
@@ -62,12 +76,16 @@ Each instructor is an object in the `instructors` array. Fields:
 
 | Field | Description |
 |---|---|
+| `visible` | `false` hides the Recital pages and drops Recital from the menu and footer; `/recital` and `/recital/program` then show the 404 page. Everything below is kept and reappears when set back to `true`. |
 | `season` | Label for the current year, e.g. `"2025–2026"` |
-| `dateTime` | e.g. `"Saturday, June 7, 2025 at 2:00 PM"` — `null` shows "Coming Soon" |
+| `eventDate` | `"YYYY-MM-DD"` — also used to auto-hide the ticket link once the recital has passed |
+| `showTimes` | e.g. `"Shows at 11:00 AM, and 3:00 PM"` — blank shows just the date |
 | `venue` | Venue name and address — `null` shows "Coming Soon" |
-| `tickets.generalAdmission` | e.g. `"$15"` — `null` shows "TBA" |
+| `venueMapLink` | Google Maps link — blank shows the venue name only |
+| `tickets.generalAdmission` | e.g. `"$15"` — `null` shows "Not Available" |
 | `tickets.reservedSeating` | e.g. `"$20"` — `null` shows "TBA" |
-| `tickets.salesOpen` | e.g. `"May 1, 2025"` — `null` shows "TBA" |
+| `tickets.salesOpenDateTime` | `"YYYY-MM-DDTHH:mm:ss"` — the Buy Tickets link appears at this time |
+| `tickets.ticketLink` | URL where tickets are sold — blank shows no button |
 | `seniors` | Array of senior spotlight objects — `null` shows "Coming Soon" |
 
 **`recitalProgram.json`** — the full show program with performances, section headers, and intermissions. Managed via the CMS "Recital Program" collection.

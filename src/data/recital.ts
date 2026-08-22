@@ -11,6 +11,8 @@ export type Senior = {
 }
 
 type RecitalData = {
+  /** false hides the Recital pages and their nav/footer links site-wide */
+  visible: boolean
   season: string
   showTimes: string | null
   eventDate: string | null
@@ -35,6 +37,8 @@ const raw = recitalContent as RecitalData
 
 const recital: RecitalData = {
   ...raw,
+  // Default to visible so content saved before this flag existed still renders
+  visible: raw.visible !== false,
   showTimes: nullIfEmpty(raw.showTimes),
   eventDate: nullIfEmpty(raw.eventDate),
   venue: nullIfEmpty(raw.venue),

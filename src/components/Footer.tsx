@@ -1,5 +1,6 @@
 import type { ReactElement } from 'react'
 import { Link } from 'react-router'
+import { recitalVisible } from '@/data/recitalVisibility'
 
 export const Footer = (): ReactElement => {
   return (
@@ -26,7 +27,7 @@ export const Footer = (): ReactElement => {
             {[
               { to: '/classes', label: 'Classes' },
               { to: '/staff', label: 'Our Staff' },
-              { to: '/recital', label: 'Recital' },
+              ...(recitalVisible ? [{ to: '/recital', label: 'Recital' }] : []),
               { to: '/registration', label: 'Register' },
               { to: '/contact', label: 'Contact' },
             ].map(({ to, label }) => (

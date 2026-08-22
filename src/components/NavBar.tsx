@@ -1,6 +1,17 @@
 import type { ReactElement } from 'react'
 import { useState } from 'react'
 import { NavBarItem } from './NavBarItem'
+import { recitalVisible } from '@/data/recitalVisibility'
+
+const navLinks: { path: string; label: string }[] = [
+  { path: '/', label: 'Home' },
+  { path: '/classes', label: 'Classes' },
+  { path: '/staff', label: 'Staff' },
+  { path: '/gallery', label: 'Gallery' },
+  ...(recitalVisible ? [{ path: '/recital', label: 'Recital' }] : []),
+  { path: '/registration', label: 'Register' },
+  { path: '/contact', label: 'Contact' },
+]
 
 export const NavBar = (): ReactElement => {
   const [isOpen, setIsOpen] = useState(false)
@@ -11,13 +22,9 @@ export const NavBar = (): ReactElement => {
       <div className="flex items-center justify-between px-6">
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-1 py-1">
-          <NavBarItem path="/" onClick={close}>Home</NavBarItem>
-          <NavBarItem path="/classes" onClick={close}>Classes</NavBarItem>
-          <NavBarItem path="/staff" onClick={close}>Staff</NavBarItem>
-          <NavBarItem path="/gallery" onClick={close}>Gallery</NavBarItem>
-          <NavBarItem path="/recital" onClick={close}>Recital</NavBarItem>
-          <NavBarItem path="/registration" onClick={close}>Register</NavBarItem>
-          <NavBarItem path="/contact" onClick={close}>Contact</NavBarItem>
+          {navLinks.map(({ path, label }) => (
+            <NavBarItem key={path} path={path} onClick={close}>{label}</NavBarItem>
+          ))}
         </ul>
 
         {/* Mobile: logo placeholder + hamburger */}
@@ -45,13 +52,9 @@ export const NavBar = (): ReactElement => {
       {isOpen && (
         <div className="md:hidden border-t border-purple-800">
           <ul className="flex flex-col divide-y divide-purple-800/50">
-            <NavBarItem path="/" onClick={close}>Home</NavBarItem>
-            <NavBarItem path="/classes" onClick={close}>Classes</NavBarItem>
-            <NavBarItem path="/staff" onClick={close}>Staff</NavBarItem>
-            <NavBarItem path="/gallery" onClick={close}>Gallery</NavBarItem>
-            <NavBarItem path="/recital" onClick={close}>Recital</NavBarItem>
-            <NavBarItem path="/registration" onClick={close}>Register</NavBarItem>
-            <NavBarItem path="/contact" onClick={close}>Contact</NavBarItem>
+            {navLinks.map(({ path, label }) => (
+              <NavBarItem key={path} path={path} onClick={close}>{label}</NavBarItem>
+            ))}
           </ul>
         </div>
       )}

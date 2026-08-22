@@ -38,6 +38,48 @@ collections:
               - { label: "Bottom Center", value: "bottom center" }
               - { label: "Bottom Right", value: "bottom right" }
 
+  - name: announcement
+    label: Announcement Banner
+    files:
+      - name: announcement
+        label: Announcement Banner
+        file: src/content/announcement.json
+        fields:
+          - {
+              label: "Show Banner",
+              name: enabled,
+              widget: boolean,
+              default: false,
+              hint: "Turn on to show the pink banner across the top of the home page. Turn off when the announcement is over.",
+            }
+          - {
+              label: Headline,
+              name: headline,
+              widget: string,
+              hint: 'The main message, e.g. "Our 2026–2027 season is open for registration!"',
+            }
+          - {
+              label: Smaller Text,
+              name: subtext,
+              widget: string,
+              required: false,
+              hint: 'Shown next to the headline in smaller type, e.g. "Classes begin September 8th". Leave blank to omit.',
+            }
+          - {
+              label: "Button Label",
+              name: buttonLabel,
+              widget: string,
+              required: false,
+              hint: 'e.g. "Register Now". Leave blank to show no button.',
+            }
+          - {
+              label: "Button Link",
+              name: buttonLink,
+              widget: string,
+              required: false,
+              hint: "Where the button goes. Use /registration, /classes, /contact for pages on this site, or paste a full https:// address to link somewhere else (opens in a new tab).",
+            }
+
   - name: classes
     label: Classes
     files:
@@ -217,6 +259,13 @@ collections:
         label: Recital Details
         file: src/content/recital.json
         fields:
+          - {
+              label: "Show Recital Page",
+              name: visible,
+              widget: boolean,
+              default: true,
+              hint: "Turn off between seasons to hide the Recital pages and remove Recital from the menu and footer. Your recital details below are kept and reappear when you turn this back on.",
+            }
           - { label: Season, name: season, widget: string, hint: 'e.g. "2025–2026"' }
           - {
               label: Event Date,
