@@ -38,7 +38,7 @@ Controls the **Register Online** page (`/register-online`), which embeds the Stu
 | `bannerBody` | One or two sentences on why registering online is better |
 | `bannerButtonLabel` | Label on the notice's button |
 
-The schedule is embedded in an iframe on tablets and desktops only. Studio Pro doesn't report the embed's height and the schedule runs past 15,000px tall on a phone, so small screens get a link that opens the portal in a new tab instead.
+The schedule is embedded in an iframe. Studio Pro doesn't report the embed's height, so the frame is a fixed box with its own scrollbar — `75vh` on phones so it always fits the screen, `1000px` from the `md` breakpoint up. A "open it in a new tab" link sits below the frame for anyone whose browser blocks the embed.
 
 ---
 

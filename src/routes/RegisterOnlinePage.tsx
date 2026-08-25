@@ -2,18 +2,13 @@ import type { ReactElement } from "react";
 import { Link } from "react-router";
 import { Helmet } from "react-helmet-async";
 import onlineRegistration from "@/data/onlineRegistration";
-import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 /**
- * The portal is a third-party embed (GoStudioPro). It never reports its height,
- * so the frame is a fixed box with its own scrollbar. On phones the portal runs
- * past 15,000px tall, which makes that box a scroll trap — so small screens get
- * a link out instead of an embed.
+ * The portal is a third-party embed (GoStudioPro) that never reports its height,
+ * so the frame is a fixed box with its own scrollbar. The height is viewport-based
+ * on phones so the box always fits on screen instead of running off the bottom.
  */
-const EMBED_HEIGHT_PX = 1000;
-
 function RegisterOnlinePage(): ReactElement {
-  const canEmbed = useMediaQuery("(min-width: 768px)");
   const { portalUrl } = onlineRegistration;
 
   return (
@@ -60,49 +55,26 @@ function RegisterOnlinePage(): ReactElement {
       {/* Portal */}
       <section className="bg-studio-lavender px-6 py-12">
         <div className="mx-auto max-w-6xl">
-          {canEmbed ? (
-            <>
-              <div className="overflow-hidden rounded-2xl border border-purple-100 bg-white shadow-sm">
-                <iframe
-                  src={portalUrl}
-                  title="Class schedule and online registration"
-                  className="block w-full border-0"
-                  style={{ height: `${EMBED_HEIGHT_PX}px` }}
-                  loading="lazy"
-                />
-              </div>
-              <p className="mt-4 text-center text-sm text-gray-600">
-                Trouble with the schedule above?{" "}
-                <a
-                  href={portalUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-studio-pink font-semibold hover:underline"
-                >
-                  Open it in a new tab
-                </a>
-                .
-              </p>
-            </>
-          ) : (
-            <div className="rounded-2xl border border-purple-100 bg-white p-8 text-center shadow-sm">
-              <h2 className="text-studio-purple mb-3 font-serif text-2xl font-semibold">
-                View the class schedule
-              </h2>
-              <p className="mb-6 text-sm leading-relaxed text-gray-600">
-                Our full schedule and registration open in a new tab — it works much better on a
-                phone than squeezed into this page.
-              </p>
-              <a
-                href={portalUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-studio-pink inline-block rounded-full px-7 py-3 font-semibold text-white transition-colors hover:bg-pink-700"
-              >
-                Open schedule &amp; register →
-              </a>
-            </div>
-          )}
+          <div className="overflow-hidden rounded-2xl border border-purple-100 bg-white shadow-sm">
+            <iframe
+              src={portalUrl}
+              title="Class schedule and online registration"
+              className="block h-[75vh] w-full border-0 md:h-[1000px]"
+              loading="lazy"
+            />
+          </div>
+          <p className="mt-4 text-center text-sm text-gray-600">
+            Trouble with the schedule above?{" "}
+            <a
+              href={portalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-studio-pink font-semibold hover:underline"
+            >
+              Open it in a new tab
+            </a>
+            .
+          </p>
         </div>
       </section>
 
