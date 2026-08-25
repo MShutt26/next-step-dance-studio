@@ -1,6 +1,6 @@
 import { useState, type ReactElement } from "react";
 import { Helmet } from "react-helmet-async";
-import { useSearchParams } from "react-router";
+import { Link, useSearchParams } from "react-router";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -11,6 +11,7 @@ import { Button } from "@components/Button";
 import { Checkbox } from "@components/Checkbox";
 import { buildRegistrationFormSchema, calculateAge } from "@shared/registration.schema";
 import { classes as studioClasses } from "@/data/classes";
+import onlineRegistration from "@/data/onlineRegistration";
 
 const registrationFormSchema = buildRegistrationFormSchema(
   studioClasses.map((c) => c.id),
@@ -138,6 +139,60 @@ function RegistrationPage(): ReactElement {
 
       <div className="bg-studio-lavender px-6 py-16">
         <div className="mx-auto max-w-3xl">
+          {onlineRegistration.enabled && formStatus !== "success" && (
+            <div className="border-studio-pink mb-8 rounded-2xl border-2 bg-white p-6 shadow-sm sm:p-7">
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
+                <svg
+                  className="text-studio-pink h-7 w-7 shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                  />
+                </svg>
+                <div className="flex-1">
+                  <h2 className="text-studio-purple font-serif text-xl font-semibold">
+                    {onlineRegistration.bannerHeadline}
+                  </h2>
+                  <p className="mt-1.5 text-sm leading-relaxed text-gray-600">
+                    {onlineRegistration.bannerBody}
+                  </p>
+                  <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-1.5">
+                    {["Instant confirmation", "Real times and openings"].map((benefit) => (
+                      <li key={benefit} className="flex items-center gap-1.5 text-xs text-green-700">
+                        <svg
+                          className="h-3.5 w-3.5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth={2.5}
+                          aria-hidden="true"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>
+                        {benefit}
+                      </li>
+                    ))}
+                  </ul>
+                  <Link
+                    to="/register-online"
+                    className="bg-studio-pink mt-4 inline-block rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-pink-700"
+                  >
+                    {onlineRegistration.bannerButtonLabel} →
+                  </Link>
+                </div>
+              </div>
+              <p className="mt-6 border-t border-gray-100 pt-4 text-center text-xs text-gray-500">
+                or complete the form below and we&apos;ll follow up to confirm
+              </p>
+            </div>
+          )}
           {formStatus === "success" ? (
             <div className="py-12 text-center">
               <div className="bg-studio-pink-light mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full">

@@ -80,6 +80,45 @@ collections:
               hint: "Where the button goes. Use /registration, /classes, /contact for pages on this site, or paste a full https:// address to link somewhere else (opens in a new tab).",
             }
 
+  - name: online-registration
+    label: Online Registration
+    files:
+      - name: online-registration
+        label: Online Registration
+        file: src/content/onlineRegistration.json
+        fields:
+          - {
+              label: "Online Registration Turned On",
+              name: enabled,
+              widget: boolean,
+              default: true,
+              hint: "Turn on to show the Register Online page and the notice above the registration form. Turn off to send everyone to the form instead.",
+            }
+          - {
+              label: "Registration Portal Link",
+              name: portalUrl,
+              widget: string,
+              hint: "The Studio Pro live schedule link. In Studio Pro go to Classes → Class Options → 'Add live schedule to your website' and paste the responsive link here.",
+            }
+          - {
+              label: "Notice Headline",
+              name: bannerHeadline,
+              widget: string,
+              hint: "Shown above the registration form, e.g. There's a faster way to register",
+            }
+          - {
+              label: "Notice Text",
+              name: bannerBody,
+              widget: text,
+              hint: "One or two sentences explaining why registering online is better.",
+            }
+          - {
+              label: "Notice Button Label",
+              name: bannerButtonLabel,
+              widget: string,
+              hint: 'e.g. "Register online"',
+            }
+
   - name: classes
     label: Classes
     files:

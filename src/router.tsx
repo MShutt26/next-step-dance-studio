@@ -4,6 +4,7 @@ import HomePage from "./routes/HomePage";
 import NotFoundPage from "./routes/NotFoundPage";
 import ErrorPage from "./routes/ErrorPage";
 import { recitalVisible } from "./data/recitalVisibility";
+import onlineRegistration from "./data/onlineRegistration";
 
 const devRoutes: RouteObject[] = import.meta.env.DEV
   ? [
@@ -31,6 +32,18 @@ const recitalRoutes: RouteObject[] = recitalVisible
         path: "recital/program",
         lazy: async () => ({
           Component: (await import("./routes/RecitalProgramPage")).default,
+        }),
+      },
+    ]
+  : [];
+
+/** Registered only while online registration is turned on in the CMS. */
+const onlineRegistrationRoutes: RouteObject[] = onlineRegistration.enabled
+  ? [
+      {
+        path: "register-online",
+        lazy: async () => ({
+          Component: (await import("./routes/RegisterOnlinePage")).default,
         }),
       },
     ]
@@ -73,6 +86,7 @@ export const router = createBrowserRouter([
           { index: true, element: <HomePage /> },
           ...contentRoutes,
           ...recitalRoutes,
+          ...onlineRegistrationRoutes,
           ...devRoutes,
           { path: "*", element: <NotFoundPage /> },
         ],

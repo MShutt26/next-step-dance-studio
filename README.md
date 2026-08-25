@@ -26,6 +26,22 @@ The pink banner across the top of the home page. Use it for seasonal notices —
 
 ---
 
+### Online Registration — `src/content/onlineRegistration.json`
+
+Controls the **Register Online** page (`/register-online`), which embeds the Studio Pro live class schedule, and the notice shown above the studio's own registration form.
+
+| Field | Description |
+|---|---|
+| `enabled` | `true` shows the Register Online page and the notice above the form; `false` hides both and `/register-online` 404s |
+| `portalUrl` | The Studio Pro live-schedule link. In Studio Pro: Classes → Class Options → "Add live schedule to your website", and use the **responsive** link |
+| `bannerHeadline` | Headline of the notice above the registration form |
+| `bannerBody` | One or two sentences on why registering online is better |
+| `bannerButtonLabel` | Label on the notice's button |
+
+The schedule is embedded in an iframe on tablets and desktops only. Studio Pro doesn't report the embed's height and the schedule runs past 15,000px tall on a phone, so small screens get a link that opens the portal in a new tab instead.
+
+---
+
 ### Classes — `src/content/classes.json`
 
 Each class is an object in the `classes` array. Fields:
